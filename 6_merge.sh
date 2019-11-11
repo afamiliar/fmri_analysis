@@ -1,6 +1,7 @@
 #!/bin/sh 
 #
 #	Merge stat files into one file per run, then merge files across runs
+#	This step is specific to setting up results for subsequent MVPA tests using the CoSMo-MVPA toolbox
 
 for d in data/subj*/ ; do
 # for d in "data/subj01" ; do

@@ -1,6 +1,6 @@
 #!/bin/sh 
 #
-#	Register EPI runs to anatomical
+#	Register EPI results to anatomical
 #	(depending on FSL version, registration will be calculated but not performed)
 
 for d in data/subj*/ ; do

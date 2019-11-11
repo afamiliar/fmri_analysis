@@ -21,15 +21,12 @@ for d in data/subj*/ ; do
 	mv *run3* run3.nii.gz
 	mv *run4* run4.nii.gz
 	mv *run5* run5.nii.gz
-	mv *localizer1* localizer1.nii.gz
-	mv *localizer2* localizer2.nii.gz
-	mv *localizer3* localizer3.nii.gz
-	
+
 	mv *B0maps011* B0map_1.nii.gz
 	mv *B0maps012* B0map_2.nii.gz
 
 		
-	# === skull strip anatomical
+	# === skull strip anatomical & create anatomical mask
 	bet anatomical.nii.gz anatomical_brain
 	fslmaths anatomical_brain -bin anat_mask
 

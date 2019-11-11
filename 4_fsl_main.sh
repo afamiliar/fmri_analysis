@@ -13,7 +13,7 @@ for d in data/subj*/ ; do
 	feat design_r4.fsf
 	feat design_r5.fsf
 
-	cd ../
+	cd ..
 
 	echo $d	
 done
