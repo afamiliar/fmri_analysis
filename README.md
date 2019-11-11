@@ -10,9 +10,11 @@ Bash scripts are to be run in numerical order, and are set up to loop through su
 
 # file structure
 Nifti files should be located in subject-specific directory within data/ directory, for example:
+```bash
 	data/
 		subj##/
 			nii/
+```
 
 FSL FEAT design files are located in design_files/ directory.
 
