@@ -22,7 +22,7 @@ for d in data/subj*/ ; do
 
 	rm *_r*
 
-	cd ../..
+	cd ..
 
 	echo $d
 
